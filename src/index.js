@@ -88,7 +88,7 @@ function drawCatInfo(data) {
   const { description, temperament, name } = data[0].breeds[0];
   const image = data[0].url;
 
-  const markup = `<img class= "img_cat" src='${image}' alt='cats photo' style="border-radius: 6px"  height=600px/>
+  const markup = `<img class= "img_cat" src='${image}' alt='cats photo' style="border-radius: 6px"  height=800px/>
   <p><b>Breed</b>: ${name}</p> 
   <p><b>Temperament</b>: ${temperament}</p>
   <p><b>Description</b>: ${description}</p>`;
